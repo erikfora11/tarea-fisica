@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "Quiz interactivo de física",
   "scripts": {
-    "dev": "parcel public/index.html",
-    "build": "parcel build public/index.html --dist-dir dist --public-url /",
     "start": "node server.js"
   },
   "engines": {
@@ -12,8 +10,5 @@
   },
   "dependencies": {
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "parcel": "^2.15.0"
   }
 }

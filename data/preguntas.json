@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "tema": "Péndulos",
+    "pregunta": "¿De qué depende principalmente el período de un péndulo simple?",
+    "opciones": ["De la masa del péndulo", "De la longitud del hilo", "De la amplitud de oscilación", "De la velocidad inicial"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "La fórmula T = 2π√(L/g) muestra que solo L y g determinan el período.",
+      "incorrecto": "La masa del objeto colgado sí influye en la rapidez de las oscilaciones."
+    }
+  },
+  {
+    "id": 2,
+    "tema": "Péndulos",
+    "pregunta": "¿Cuál es la fórmula del período de un péndulo simple?",
+    "opciones": ["T = 2π√(m/k)", "T = 2π√(L/g)", "T = 2π√(g/L)", "T = 2π√(k/m)"],
+    "respuesta": 1,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Péndulo oscilante: amplitud vs tiempo",
+      "frecuencia": 1,
+      "amplitud": 1
+    },
+    "hints": {
+      "correcto": "L es la longitud del hilo y g es la aceleración de la gravedad; a mayor L, mayor período.",
+      "incorrecto": "La fórmula con m y k corresponde al sistema masa-resorte, no al péndulo."
+    }
+  },
+  {
+    "id": 3,
+    "tema": "Péndulos",
+    "pregunta": "Si se duplica la longitud de un péndulo simple, ¿cómo cambia su período?",
+    "opciones": ["Se duplica", "Se cuadruplica", "Aumenta por un factor de √2", "Permanece igual"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Como T ∝ √L, duplicar L implica multiplicar T por √2 ≈ 1.41, no por 2.",
+      "incorrecto": "Para que el período se duplique, habría que cuadruplicar la longitud, no solo doblarla."
+    }
+  },
+  {
+    "id": 4,
+    "tema": "Péndulos",
+    "pregunta": "¿Qué tipo de movimiento describe un péndulo simple con pequeñas amplitudes?",
+    "opciones": ["Movimiento rectilíneo uniforme", "Movimiento armónico simple", "Movimiento parabólico", "Movimiento circular uniforme"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "Con ángulos menores a 15°, la fuerza restauradora es proporcional al desplazamiento, condición del MAS.",
+      "incorrecto": "El movimiento circular uniforme requiere velocidad tangencial constante, lo cual no ocurre en un péndulo."
+    }
+  },
+  {
+    "id": 5,
+    "tema": "Péndulos",
+    "pregunta": "Un péndulo tiene una longitud de 1 m y g = 9.8 m/s². ¿Cuál es aproximadamente su período?",
+    "opciones": ["1 s", "2 s", "3 s", "4 s"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "T = 2π√(1/9.8) ≈ 2π × 0.319 ≈ 2.006 s, es decir, aproximadamente 2 segundos.",
+      "incorrecto": "Un período de 1 s correspondería a un péndulo de apenas 0.25 m de longitud."
+    }
+  },
+  {
+    "id": 6,
+    "tema": "Resortes",
+    "pregunta": "¿Qué establece la Ley de Hooke?",
+    "opciones": ["F = ma", "F = -kx", "F = mv²/r", "F = Gm₁m₂/r²"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "La fuerza restauradora es proporcional a la deformación x; el signo negativo indica que se opone al desplazamiento.",
+      "incorrecto": "F = ma es la Segunda Ley de Newton, no describe el comportamiento elástico de un resorte."
+    }
+  },
+  {
+    "id": 7,
+    "tema": "Resortes",
+    "pregunta": "¿Qué representa la constante 'k' en un resorte?",
+    "opciones": ["La masa del resorte", "La elongación máxima", "La rigidez o constante elástica", "La frecuencia de oscilación"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Un valor alto de k significa que el resorte es muy rígido y necesita más fuerza para deformarse.",
+      "incorrecto": "La elongación máxima se llama amplitud y depende de las condiciones iniciales, no de k."
+    }
+  },
+  {
+    "id": 8,
+    "tema": "Resortes",
+    "pregunta": "¿Cuál es la fórmula del período de un sistema masa-resorte?",
+    "opciones": ["T = 2π√(L/g)", "T = 2π√(m/k)", "T = 2π√(k/m)", "T = 2π√(g/m)"],
+    "respuesta": 1,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Oscilación masa-resorte",
+      "frecuencia": 2,
+      "amplitud": 1
+    },
+    "hints": {
+      "correcto": "A mayor masa o menor rigidez (k), el período aumenta; el sistema oscila más lentamente.",
+      "incorrecto": "T = 2π√(L/g) es la fórmula del péndulo simple, no del sistema masa-resorte."
+    }
+  },
+  {
+    "id": 9,
+    "tema": "Resortes",
+    "pregunta": "Si la constante elástica de un resorte es 200 N/m y se aplica una fuerza de 10 N, ¿cuánto se estira?",
+    "opciones": ["0.02 m", "0.05 m", "0.10 m", "0.20 m"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "Despejando de F = kx → x = F/k = 10/200 = 0.05 m = 5 cm.",
+      "incorrecto": "Multiplicar F × k en lugar de dividirlos daría 2000, un resultado sin sentido físico."
+    }
+  },
+  {
+    "id": 10,
+    "tema": "Resortes",
+    "pregunta": "¿Qué tipo de energía almacena un resorte cuando está comprimido o estirado?",
+    "opciones": ["Energía cinética", "Energía térmica", "Energía potencial elástica", "Energía gravitacional"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "La energía potencial elástica se calcula como Ep = ½kx²; se almacena en la deformación del resorte.",
+      "incorrecto": "La energía cinética solo existe cuando hay movimiento; un resorte quieto deformado no tiene energía cinética."
+    }
+  },
+  {
+    "id": 11,
+    "tema": "Características de Ondas",
+    "pregunta": "¿Cuál de las siguientes NO es una característica de una onda?",
+    "opciones": ["Amplitud", "Frecuencia", "Masa", "Longitud de onda"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Las ondas transportan energía, no materia, por lo que no tienen masa propia.",
+      "incorrecto": "La amplitud sí es una característica fundamental; indica cuánta energía transporta la onda."
+    }
+  },
+  {
+    "id": 12,
+    "tema": "Características de Ondas",
+    "pregunta": "¿Qué relación existe entre frecuencia y período?",
+    "opciones": ["f = T", "f = 1/T", "f = T²", "f = √T"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "Si una onda tarda 0.5 s en un ciclo (T = 0.5 s), completa 2 ciclos por segundo (f = 2 Hz).",
+      "incorrecto": "Si f = T, una onda de período 0.5 s tendría frecuencia 0.5 Hz, lo cual es incorrecto."
+    }
+  },
+  {
+    "id": 13,
+    "tema": "Características de Ondas",
+    "pregunta": "¿Qué representa la amplitud de una onda?",
+    "opciones": ["El número de oscilaciones por segundo", "La distancia entre dos crestas consecutivas", "El desplazamiento máximo desde el equilibrio", "La velocidad de propagación"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "En una onda de agua, la amplitud es la altura máxima de la cresta sobre el nivel en reposo.",
+      "incorrecto": "La distancia entre dos crestas consecutivas es la longitud de onda (λ), no la amplitud."
+    }
+  },
+  {
+    "id": 14,
+    "tema": "Características de Ondas",
+    "pregunta": "¿Cuál es la ecuación fundamental de las ondas?",
+    "opciones": ["v = f · λ", "v = f / λ", "v = λ / T²", "v = f · T"],
+    "respuesta": 0,
+    "hints": {
+      "correcto": "Velocidad = frecuencia × longitud de onda; a mayor frecuencia y mayor λ, más rápido se propaga.",
+      "incorrecto": "v = f · T sería incorrecto: como T = 1/f, multiplicarlos da siempre 1, sin unidades de velocidad."
+    }
+  },
+  {
+    "id": 15,
+    "tema": "Características de Ondas",
+    "pregunta": "Una onda tiene frecuencia de 5 Hz y longitud de onda de 3 m. ¿Cuál es su velocidad?",
+    "opciones": ["8 m/s", "15 m/s", "1.67 m/s", "0.6 m/s"],
+    "respuesta": 1,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Visualización de Onda senoidal",
+      "frecuencia": 5,
+      "amplitud": 1,
+      "longitudOnda": 3
+    },
+    "hints": {
+      "correcto": "v = f × λ = 5 Hz × 3 m = 15 m/s. Hz × m resulta en m/s.",
+      "incorrecto": "Sumar f + λ = 5 + 3 = 8 m/s es un error común, pero la ecuación correcta usa multiplicación."
+    }
+  },
+  {
+    "id": 16,
+    "tema": "Ondas Mecánicas",
+    "pregunta": "¿Qué necesitan las ondas mecánicas para propagarse?",
+    "opciones": ["Vacío", "Un medio material", "Luz", "Calor"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "El sonido es una onda mecánica; no puede viajar en el espacio exterior porque no hay materia.",
+      "incorrecto": "El vacío es el medio en que se propagan las ondas electromagnéticas, no las mecánicas."
+    }
+  },
+  {
+    "id": 17,
+    "tema": "Ondas Mecánicas",
+    "pregunta": "¿En qué tipo de onda las partículas vibran perpendicularmente a la dirección de propagación?",
+    "opciones": ["Onda longitudinal", "Onda transversal", "Onda estacionaria", "Onda de presión"],
+    "respuesta": 1,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Onda transversal (cuerda)",
+      "frecuencia": 2,
+      "amplitud": 1
+    },
+    "hints": {
+      "correcto": "Visualiza una cuerda agitada: sube y baja (perpendicular) mientras la onda avanza horizontalmente.",
+      "incorrecto": "En una onda longitudinal las partículas vibran en la misma dirección que la propagación, como en el sonido."
+    }
+  },
+  {
+    "id": 18,
+    "tema": "Ondas Mecánicas",
+    "pregunta": "¿A qué velocidad aproximada viaja el sonido en el aire a 20 °C?",
+    "opciones": ["150 m/s", "340 m/s", "500 m/s", "1000 m/s"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "A 20 °C el sonido viaja ≈ 343 m/s; por eso un trueno se escucha ~3 s después por cada km de distancia.",
+      "incorrecto": "1000 m/s es aproximadamente la velocidad del sonido en el agua, no en el aire."
+    }
+  },
+  {
+    "id": 19,
+    "tema": "Ondas Mecánicas",
+    "pregunta": "¿Qué fenómeno ocurre cuando una onda choca con una superficie y regresa al medio original?",
+    "opciones": ["Refracción", "Difracción", "Reflexión", "Interferencia"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "El eco es un ejemplo cotidiano de reflexión: el sonido rebota en una pared y regresa al emisor.",
+      "incorrecto": "La refracción ocurre cuando la onda cambia de medio, no cuando rebota en una superficie."
+    }
+  },
+  {
+    "id": 20,
+    "tema": "Ondas Mecánicas",
+    "pregunta": "¿Cómo se llama el cambio de dirección de una onda al pasar de un medio a otro?",
+    "opciones": ["Reflexión", "Difracción", "Polarización", "Refracción"],
+    "respuesta": 3,
+    "hints": {
+      "correcto": "La refracción explica por qué un lápiz parece doblarse al introducirse en un vaso de agua.",
+      "incorrecto": "La difracción es el doblez de una onda al rodear obstáculos, no al cambiar de medio."
+    }
+  },
+  {
+    "id": 21,
+    "tema": "Ondas Electromagnéticas",
+    "pregunta": "¿Qué necesitan las ondas electromagnéticas para propagarse?",
+    "opciones": ["Aire", "Agua", "Un medio sólido", "No necesitan medio material"],
+    "respuesta": 3,
+    "hints": {
+      "correcto": "La luz del Sol llega a la Tierra cruzando millones de km de vacío espacial, sin ningún medio material.",
+      "incorrecto": "Creer que necesitan aire es confundirlas con el sonido, que sí requiere un medio mecánico."
+    }
+  },
+  {
+    "id": 22,
+    "tema": "Ondas Electromagnéticas",
+    "pregunta": "¿A qué velocidad se propagan las ondas electromagnéticas en el vacío?",
+    "opciones": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10⁴ m/s"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "c ≈ 3 × 10⁸ m/s es la velocidad de la luz; a esta velocidad se recorre la distancia Tierra-Luna en ~1.3 s.",
+      "incorrecto": "3 × 10⁶ m/s sería solo el 1% de la velocidad de la luz, mucho menor que el valor real."
+    }
+  },
+  {
+    "id": 23,
+    "tema": "Ondas Electromagnéticas",
+    "pregunta": "¿Cuál de las siguientes pertenece al espectro electromagnético?",
+    "opciones": ["Ondas de sonido", "Ondas sísmicas", "Rayos X", "Ondas en cuerdas"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Los rayos X son ondas EM de alta energía usadas en medicina para ver estructuras internas del cuerpo.",
+      "incorrecto": "Las ondas de sonido y sísmicas son mecánicas; necesitan un medio material y no son EM."
+    }
+  },
+  {
+    "id": 24,
+    "tema": "Ondas Electromagnéticas",
+    "pregunta": "¿Qué tipo de onda es la luz visible?",
+    "opciones": ["Onda mecánica longitudinal", "Onda mecánica transversal", "Onda electromagnética transversal", "Onda de presión"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "La luz tiene campos eléctrico y magnético que oscilan perpendicularmente a su dirección de propagación.",
+      "incorrecto": "Las ondas de presión son longitudinales y mecánicas; describen al sonido, no a la luz."
+    }
+  },
+  {
+    "id": 25,
+    "tema": "Ondas Electromagnéticas",
+    "pregunta": "¿Cuál tiene mayor frecuencia dentro del espectro electromagnético?",
+    "opciones": ["Ondas de radio", "Luz visible", "Rayos gamma", "Microondas"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Los rayos gamma provienen de núcleos atómicos y tienen frecuencias superiores a 10¹⁹ Hz, las más altas del espectro.",
+      "incorrecto": "Las ondas de radio tienen la frecuencia más baja del espectro EM, no la más alta."
+    }
+  },
+  {
+    "id": 26,
+    "tema": "Ejercicios Prácticos",
+    "pregunta": "Un resorte de k = 400 N/m oscila con una masa de 1 kg. ¿Cuál es su frecuencia angular ω?",
+    "opciones": ["10 rad/s", "20 rad/s", "40 rad/s", "400 rad/s"],
+    "respuesta": 1,
+    "hints": {
+      "correcto": "ω = √(k/m) = √(400/1) = √400 = 20 rad/s. La raíz cuadrada es clave en este cálculo.",
+      "incorrecto": "Tomar k/m = 400 sin aplicar la raíz cuadrada daría 400 rad/s, error muy común."
+    }
+  },
+  {
+    "id": 27,
+    "tema": "Ejercicios Prácticos",
+    "pregunta": "Una onda de sonido tiene longitud de onda de 0.68 m en el aire (v = 340 m/s). ¿Cuál es su frecuencia?",
+    "opciones": ["200 Hz", "340 Hz", "500 Hz", "680 Hz"],
+    "respuesta": 2,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Onda de sonido",
+      "frecuencia": 0.75,
+      "amplitud": 0.8,
+      "longitudOnda": 0.68
+    },
+    "hints": {
+      "correcto": "f = v/λ = 340/0.68 = 500 Hz. Esta frecuencia está dentro del rango audible humano (20–20 000 Hz).",
+      "incorrecto": "Responder 340 Hz confunde la velocidad del sonido con la frecuencia; son magnitudes distintas."
+    }
+  },
+  {
+    "id": 28,
+    "tema": "Ejercicios Prácticos",
+    "pregunta": "¿Cuánto tiempo tarda en completar 50 oscilaciones un péndulo de período T = 2 s?",
+    "opciones": ["25 s", "50 s", "100 s", "200 s"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Tiempo total = N × T = 50 × 2 s = 100 s. Cada oscilación completa dura exactamente T segundos.",
+      "incorrecto": "Responder 50 s sería correcto solo si el período fuera 1 s; con T = 2 s el tiempo se duplica."
+    }
+  },
+  {
+    "id": 29,
+    "tema": "Ejercicios Prácticos",
+    "pregunta": "Una onda electromagnética tiene frecuencia de 6 × 10¹⁴ Hz. ¿Cuál es su longitud de onda en el vacío?",
+    "opciones": ["200 nm", "300 nm", "500 nm", "700 nm"],
+    "respuesta": 2,
+    "grafica": {
+      "tipo": "wave",
+      "titulo": "Onda EM visible",
+      "frecuencia": 2,
+      "amplitud": 1,
+      "longitudOnda": 500
+    },
+    "hints": {
+      "correcto": "λ = c/f = (3×10⁸)/(6×10¹⁴) = 5×10⁻⁷ m = 500 nm. Corresponde a luz verde visible.",
+      "incorrecto": "700 nm corresponde a luz roja; tiene menor frecuencia que 6×10¹⁴ Hz, no igual."
+    }
+  },
+  {
+    "id": 30,
+    "tema": "Ejercicios Prácticos",
+    "pregunta": "¿Qué ocurre con la energía potencial elástica de un resorte si se duplica su deformación?",
+    "opciones": ["Se duplica", "Se triplica", "Se cuadruplica", "Permanece igual"],
+    "respuesta": 2,
+    "hints": {
+      "correcto": "Ep = ½kx²; si x → 2x, entonces Ep = ½k(2x)² = 4·(½kx²). La energía crece con el cuadrado de x.",
+      "incorrecto": "Decir que se duplica ignora que la deformación está elevada al cuadrado en la fórmula de energía elástica."
+    }
+  }
+]
